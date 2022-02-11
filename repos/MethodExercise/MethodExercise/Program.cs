@@ -4,8 +4,18 @@ namespace MethodExercise
 {
     class Program
     {
+        public static int Sum(int num1, int num2)
+        {
+            var answer = num1 + num2;
+            return answer;
+        }
+
         static void Main(string[] args)
         {
+
+            var amountOfCars = Sum(2, 6);
+
+
             //---------------Exercise 1----------------------------------------
             //Name: Cheyenne
             //Favorite Color: Green
@@ -31,6 +41,8 @@ namespace MethodExercise
             Console.WriteLine($"Favorite Color: {color}");
             Console.WriteLine($"Favorite Animal: {animal}");
             Console.WriteLine($"Favorite Band: {band}");
+
+            //------------Exercise 2-------------------------------------------
 
         }
     }
